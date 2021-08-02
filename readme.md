@@ -16,7 +16,6 @@ The website code is in the `src` folder.
 - `src/js` - JavaScript files
 - `src/css` - CSS files
 
-The testing code is in the `tests` folder.
 
 The site must be built in order to be opened in a browser. The built site will be in the `build` folder.
 
