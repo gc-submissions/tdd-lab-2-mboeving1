@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "build:dev": "webpack --config webpack.dev.js",
-    "test": "jest",
+    "test": "jest --watchAll --verbose --coverage",
     "test:dev": "jest --watchAll --verbose"
   },
   "author": "",
@@ -17,5 +17,18 @@
     "webpack": "^5.16.0",
     "webpack-cli": "^4.4.0",
     "webpack-merge": "^5.7.3"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gc-submissions/tdd-lab-2-mboeving1.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/gc-submissions/tdd-lab-2-mboeving1/issues"
+  },
+  "homepage": "https://github.com/gc-submissions/tdd-lab-2-mboeving1#readme"
 }
